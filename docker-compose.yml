@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  web:
+    image: app-todo
+    ports:
+      - 8080:80
