@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+* {
+    margin: 0;
+    color: #331E36;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #ECFEE8;
+}
+
+h1 {
+    color: #41337A;
+    font-family: 'Grandstander', cursive;
+}
+
+header, main, footer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+}
+
+.container:first-child {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container:nth-child(2) ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.container:nth-child(2) ul li {
+    margin: 5px 0;
+}
+
+.container:nth-child(2) ul li input[type=button] {
+    margin-left: 20px;
+}
+
+.container input[type=text] {
+    width: 300px;
+    padding: 3px;
+    border: none;
+    background-color: #C2EFEB;
+}
+
+input[type=button] {
+    padding: 3px;
+    border: none;
+    width: 20px;
+    background-color: #6EA4BF;
+    color: #ffffff;
+}
+
+input[type=button] {
+    cursor: pointer;
+}
